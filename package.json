@@ -1,0 +1,14 @@
+{
+  "name": "suresh_newrepo",
+  "version": "1.0.0",
+  "description": "Playwright test automation project",
+  "scripts": {
+    "dev": "npx playwright test --ui",
+    "test": "npx playwright test",
+    "test:all": "start-server-and-test start http://localhost:3000/ test"
+  },
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "start-server-and-test": "latest"
+  }
+}
