@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test');
 
 test('successful login', async ({ page }) => {
   await page.goto('http://localhost:3000/');
-  await page.fill('#username', 'qadamin@admin.com');
+  await page.fill('#username', 'qateam@admin.com');
   await page.fill('#password', 'gateway123');
   await page.click('#login-button');
   await expect(page).toHaveURL('http://localhost:3000/dashboard');
